@@ -1,5 +1,5 @@
 # [step 1]>> 例如： API_KEY = "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" （此key无效）
-API_KEY = "sk-此处填API密钥"    # 可同时填写多个API-KEY，用英文逗号分割，例如API_KEY = "sk-openaikey1,sk-openaikey2,fkxxxx-api2dkey1,fkxxxx-api2dkey2"
+API_KEY = "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"    # 可同时填写多个API-KEY，用英文逗号分割，例如API_KEY = "sk-openaikey1,sk-openaikey2,fkxxxx-api2dkey1,fkxxxx-api2dkey2"
 
 # [step 2]>> 改为True应用代理，如果直接在海外服务器部署，此处不修改
 USE_PROXY = False
@@ -11,7 +11,7 @@ if USE_PROXY:
     # [端口] 在代理软件的设置里找。虽然不同的代理软件界面不一样，但端口号都应该在最显眼的位置上
 
     # 代理网络的地址，打开你的*学*网软件查看代理的协议(socks5/http)、地址(localhost)和端口(11284)
-    proxies = {
+    proxies = {50832
         #          [协议]://  [地址]  :[端口]
         "http":  "socks5h://localhost:11284",  # 再例如  "http":  "http://127.0.0.1:7890",
         "https": "socks5h://localhost:11284",  # 再例如  "https": "http://127.0.0.1:7890",
