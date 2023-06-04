@@ -60,7 +60,7 @@ ADD_WAIFU = False
 
 # 设置用户名和密码（不需要修改）（相关功能不稳定，与gradio版本和网络都相关，如果本地使用不建议加这个）
 # [("username", "password"), ("username2", "password2"), ...]
-AUTHENTICATION = []
+AUTHENTICATION = [("yiyu","0128")]
 
 # 重新URL重新定向，实现更换API_URL的作用（常规情况下，不要修改!!）
 # （高危设置！通过修改此设置，您将把您的API-KEY和对话隐私完全暴露给您设定的中间人！）
